@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
 
-    public static void selectSort1() {
+    private void selectSort1() {
         int changeIndex = 0;
         int temp = 0;
 
@@ -46,6 +46,7 @@ public class SelectionSort {
 
 
     public static void main(String[] args) {
-        selectSort1();
+        SelectionSort select = new SelectionSort();
+        select.selectSort1();
     }
 }
